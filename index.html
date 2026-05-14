@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DarkStreet Saloon | Premium Grooming</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    font-family:'Inter',sans-serif;
+    background:#050505;
+    color:white;
+    overflow-x:hidden;
+}
+h1,h2,h3,.brand{
+    font-family:'Syncopate',sans-serif;
+}
+.hero-bg{
+    background-image:url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2070&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+}
+.glass{
+    background:rgba(255,255,255,0.04);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,0.08);
+}
+.glass-card{
+    background:rgba(255,255,255,0.03);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.06);
+    transition:0.4s ease;
+}
+.glass-card:hover{
+    transform:translateY(-8px);
+    border-color:rgba(255,255,255,0.2);
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    background:#444;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="fixed top-0 w-full z-50 glass py-4 px-5 md:px-12 flex justify-between items-center">
+    <div class="brand text-lg sm:text-xl font-bold">
+        DARK<span class="text-gray-500">STREET</span>
+    </div>
+
+    <div class="hidden md:flex gap-8 text-xs tracking-widest">
+        <a href="#about">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#pricing">PRICING</a>
+        <a href="#reviews">REVIEWS</a>
+    </div>
+
+    <a href="https://wa.me/916369620645?text=Hi%20DarkStreet%20Saloon%2C%20I%20want%20to%20book%20an%20appointment."
+    class="bg-white text-black px-5 py-2 rounded-full text-xs font-bold">
+    BOOK NOW
+    </a>
+</nav>
+
+<section class="hero-bg min-h-screen flex items-center justify-center text-center px-4 relative">
+
+<div class="absolute inset-0 bg-black/70"></div>
+
+<div class="relative z-10" data-aos="zoom-out">
+
+<h1 class="text-4xl sm:text-5xl md:text-8xl font-bold leading-tight">
+DARKSTREET
+</h1>
+
+<p class="text-gray-400 tracking-[0.25em] text-[11px] sm:text-sm md:text-base mt-4 px-2">
+ESTD 2024 • PREMIUM SALOON
+</p>
+
+<div class="mt-8 flex justify-center gap-4 flex-wrap">
+<a href="#services" class="glass-card px-8 py-3 rounded-full text-xs font-bold">
+VIEW SERVICES
+</a>
+
+<a href="https://wa.me/916369620645?text=Hi%20DarkStreet%20Saloon%2C%20I%20want%20to%20book%20an%20appointment."
+class="bg-white text-black px-8 py-3 rounded-full text-xs font-bold">
+WHATSAPP
+</a>
+</div>
+
+<div class="mt-10 text-center">
+<div class="text-3xl font-bold">⭐ 4.9</div>
+<div class="text-gray-400 text-sm">Google Rating</div>
+</div>
+
+</div>
+</section>
+
+<section id="about" class="py-24 px-6 max-w-6xl mx-auto">
+<div class="grid md:grid-cols-2 gap-16 items-center">
+
+<div data-aos="fade-right">
+<h2 class="text-3xl font-bold mb-6">
+WHERE STYLE MEETS THE STREET
+</h2>
+
+<p class="text-gray-400 leading-relaxed mb-6">
+DarkStreet Saloon delivers premium grooming, stylish fades,
+beard detailing and luxury salon experience with affordable pricing.
+</p>
+
+<div class="flex gap-10 mt-8">
+<div>
+<div class="text-2xl font-bold">500+</div>
+<div class="text-xs text-gray-500">Happy Clients</div>
+</div>
+
+<div>
+<div class="text-2xl font-bold">4.9★</div>
+<div class="text-xs text-gray-500">Top Rated</div>
+</div>
+</div>
+
+</div>
+
+<div data-aos="fade-left">
+<div class="glass p-2 rounded-3xl">
+<img
+src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074&auto=format&fit=crop"
+class="rounded-3xl">
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="services" class="py-24 px-6 bg-[#080808]">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">SERVICES</h2>
+<p class="text-gray-500">Premium Grooming Experience</p>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="glass-card p-10 rounded-3xl" data-aos="fade-up">
+<i class="fas fa-cut text-4xl mb-6 text-gray-400"></i>
+<h3 class="text-xl font-bold mb-4">Hair Cut</h3>
+<p class="text-gray-400">
+Trending styles, fades and premium finishing.
+</p>
+</div>
+
+<div class="glass-card p-10 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+<i class="fas fa-broom text-4xl mb-6 text-gray-400"></i>
+<h3 class="text-xl font-bold mb-4">Beard Trim</h3>
+<p class="text-gray-400">
+Sharp beard styling and detailing.
+</p>
+</div>
+
+<div class="glass-card p-10 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
+<i class="fas fa-spa text-4xl mb-6 text-gray-400"></i>
+<h3 class="text-xl font-bold mb-4">Facial & Spa</h3>
+<p class="text-gray-400">
+Luxury skincare and relaxation treatment.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="pricing" class="py-24 px-6">
+
+<div class="max-w-5xl mx-auto">
+
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">PRICE MENU</h2>
+<p class="text-gray-500">Affordable Luxury</p>
+</div>
+
+<div class="glass rounded-3xl overflow-hidden">
+
+<div class="flex justify-between p-6 border-b border-white/10">
+<span>Hair Cut</span>
+<span>₹100</span>
+</div>
+
+<div class="flex justify-between p-6 border-b border-white/10">
+<span>Beard Trim</span>
+<span>₹59</span>
+</div>
+
+<div class="flex justify-between p-6 border-b border-white/10">
+<span>Facial</span>
+<span>Starting ₹499</span>
+</div>
+
+<div class="flex justify-between p-6 border-b border-white/10">
+<span>Hair Spa</span>
+<span>Starting ₹699</span>
+</div>
+
+<div class="flex justify-between p-6">
+<span>Hair Coloring</span>
+<span>Starting ₹799</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="reviews" class="py-24 px-6 bg-[#080808]">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">CLIENT REVIEWS</h2>
+<div class="text-2xl font-bold">⭐ 4.9 Rating</div>
+</div>
+
+<div class="grid md:grid-cols-2 gap-8">
+
+<div class="glass-card p-8 rounded-3xl">
+<p class="text-gray-300 leading-relaxed">
+"Best fade in Erode. Clean ambience and professional service."
+</p>
+<div class="mt-6 text-sm text-gray-500">
+— Google Review
+</div>
+</div>
+
+<div class="glass-card p-8 rounded-3xl">
+<p class="text-gray-300 leading-relaxed">
+"Affordable pricing with premium quality. Beard trimming was perfect."
+</p>
+<div class="mt-6 text-sm text-gray-500">
+— Google Review
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="py-24 px-6 max-w-6xl mx-auto">
+
+<div class="grid md:grid-cols-2 gap-12">
+
+<div>
+<h2 class="text-3xl font-bold mb-8">GET IN TOUCH</h2>
+
+<div class="space-y-8">
+
+<div class="flex gap-5 items-center">
+<div class="w-12 h-12 rounded-full glass flex items-center justify-center">
+<i class="fas fa-phone"></i>
+</div>
+
+<div>
+<div class="text-xs text-gray-500">CALL US</div>
+<div class="font-semibold text-lg">6369620645</div>
+</div>
+</div>
+
+<div class="flex gap-5 items-center">
+<div class="w-12 h-12 rounded-full glass flex items-center justify-center">
+<i class="fab fa-instagram"></i>
+</div>
+
+<div>
+<div class="text-xs text-gray-500">INSTAGRAM</div>
+<div class="font-semibold text-lg">@darkstreet_saloon</div>
+</div>
+</div>
+
+<div class="flex gap-5 items-center">
+<div class="w-12 h-12 rounded-full glass flex items-center justify-center">
+<i class="fas fa-location-dot"></i>
+</div>
+
+<div>
+<div class="text-xs text-gray-500">LOCATION</div>
+<div class="font-semibold text-lg">Erode, Tamil Nadu</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="glass rounded-3xl p-2 h-[400px]">
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15647.784407335967!2d77.42436065!3d11.450373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba93df973b0a7c9%3A0x6e2c351b8dc2280f!2sGobichettipalayam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+width="100%"
+height="100%"
+style="border:0;filter:grayscale(1) invert(1);"
+loading="lazy">
+</iframe>
+</div>
+
+</div>
+</section>
+
+<div class="md:hidden fixed bottom-5 left-5 right-5 flex gap-4 z-50">
+<a href="tel:6369620645"
+class="flex-1 glass py-4 rounded-2xl text-center font-bold">
+<i class="fas fa-phone mr-2"></i>CALL
+</a>
+
+<a href="https://wa.me/916369620645?text=Hi%20DarkStreet%20Saloon%2C%20I%20want%20to%20book%20an%20appointment."
+class="flex-1 bg-white text-black py-4 rounded-2xl text-center font-bold">
+<i class="fab fa-whatsapp mr-2"></i>WHATSAPP
+</a>
+</div>
+
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+</script>
+
+</body>
+</html>
